@@ -13,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     ];
 
     // Send POST request to Formspork
-    $ch = curl_init('https://submit-form.com/xFLVBDxS5'); // <-- Replace with your actual form ID
+    $ch = curl_init('https://submit-form.com/QMpYhIxdI'); // <-- Replace with your actual form ID
 
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($data));
